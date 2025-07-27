@@ -41,7 +41,7 @@ _(Note: Make sure to allow Telegram messages from bots for SOS alerts.)_
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/AkshatGarg2005/intelliqrhelp.git
+https://github.com/TanushriS/IntelliQRHelp.git
 cd intelliqrhelp
 ````
 
