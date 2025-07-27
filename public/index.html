@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="IntelliQrHelp - Smart Emergency Response System"
+    />
+    <title>IntelliQrHelp</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    
+    <!-- Dialogflow Messenger Integration -->
+    <script
+      src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"
+      crossOrigin="anonymous"
+    ></script>
+    <df-messenger
+      intent="WELCOME"
+      chat-title="FirstAidChatbot"
+      agent-id="%REACT_APP_DIALOGFLOW_AGENT_ID%"
+      language-code="en"
+    ></df-messenger>
+  </body>
+</html>
