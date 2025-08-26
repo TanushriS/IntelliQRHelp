@@ -114,7 +114,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 🤝 Support
 
-If you find this project useful, consider starring ⭐ the repo and sharing it with others.
-For queries, contact via [LinkedIn](https://www.linkedin.com/in/akshat-garg-vitbhopal/).
